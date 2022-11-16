@@ -1,1 +1,63 @@
 /* Add your own styles */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A3D45;
+    color: white;
+    height: 210px;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    padding-top: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+body{
+    background-color: #ffffff;
+    box-align: center;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+#country{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+#lookup{
+    background-color: #002fff;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+
+}
